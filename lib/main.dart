@@ -2,10 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:yoones_test/new_Windows/newWindow.dart';
 import 'package:yoones_test/numberUp.dart';
 import 'package:yoones_test/pages/firstPage.dart';
+import 'package:yoones_test/pages/secondPage.dart';
+import 'package:yoones_test/pages/thirsPage.dart';
 
 void main() {
-  runApp(const MaterialApp(
-      debugShowCheckedModeBanner: false, home: firstAppYoones()));
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: firstAppYoones(),
+    routes: {
+      "firstPage": (context) => firstPage(),
+      "secondpage": (context) => secondPage(),
+      "page3": (context) => thirsPage(),
+    },
+  ));
 }
 
 class firstAppYoones extends StatefulWidget {
@@ -92,6 +101,7 @@ class homePage extends StatelessWidget {
                           MaterialPageRoute(builder: (context) {
                         return firstPage();
                       }));
+                      // Navigator.pushNamed(context, "firstPage");
                     },
                     child: const Icon(
                       Icons.insert_page_break_rounded,

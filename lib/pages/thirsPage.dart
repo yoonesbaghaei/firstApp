@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:yoones_test/pages/thirsPage.dart';
 
-class secondPage extends StatelessWidget {
-  const secondPage({Key? key}) : super(key: key);
+class thirsPage extends StatelessWidget {
+  const thirsPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("this second Page"),
+          title: const Text("this thirs Page"),
           automaticallyImplyLeading: false,
         ),
         body: Center(
@@ -16,23 +15,20 @@ class secondPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                "this second Page",
+                "this thirs Page",
                 style: TextStyle(fontSize: 30),
               ),
               const SizedBox(
                 height: 20,
               ),
-              MaterialButton(
-                onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => thirsPage()));
-                },
-                color: const Color.fromARGB(255, 56, 240, 148),
-                child: const Text(
-                  "go to thirs Page",
-                  style: TextStyle(fontSize: 20, color: Colors.black),
-                ),
-              ),
+              // MaterialButton(
+              //   onPressed: () {},
+              //   color: const Color.fromARGB(255, 56, 240, 148),
+              //   child: const Text(
+              //     "go to second page",
+              //     style: TextStyle(fontSize: 20, color: Colors.black),
+              //   ),
+              // ),
               const SizedBox(
                 height: 20,
               ),
@@ -43,9 +39,7 @@ class secondPage extends StatelessWidget {
                   color: const Color.fromARGB(255, 202, 29, 6),
                   child: const Text(
                     "back",
-                    style: TextStyle(
-                        fontSize: 20,
-                        color: Color.fromARGB(255, 255, 255, 255)),
+                    style: TextStyle(fontSize: 20, color: Colors.white),
                   ))
             ],
           ),
