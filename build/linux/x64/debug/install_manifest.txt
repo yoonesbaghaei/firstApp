@@ -1,0 +1,16 @@
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/yoones_test
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/next.png
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/Befor.png
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/play.png
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/cover.jpg
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/SPI_DEV.png
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/pause.png
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/yoonesb/test flutter/yoones_test/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
